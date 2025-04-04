@@ -1,5 +1,7 @@
 using System;
 
+namespace PlayerStats
+{
 public class Player
 {
     private float highScore;
@@ -55,4 +57,5 @@ public class Player
         playedGames = 0;
         wonGames = 0;
     }
+}
 }

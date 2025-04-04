@@ -45,4 +45,4 @@ namespace MyRPG
             // Health: 140/140
         }
     }
-}PlayerStats
+}

@@ -1,6 +1,8 @@
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 
+namespace MyRPG
+{
 public class Player
 {
     private int xp;
@@ -71,4 +73,5 @@ public class Player
         xp = 0;
         Health = MaxHealth;
     }
+}
 }
