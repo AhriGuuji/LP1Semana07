@@ -1,6 +1,6 @@
 public class Sphere
         {
-            private Color mask;
+            private readonly Color mask;
             private float radius;
             private int launchTimes;
 
