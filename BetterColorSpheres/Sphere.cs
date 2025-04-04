@@ -6,7 +6,7 @@ public class Sphere
 
             public Sphere(Color mask, float radius)
             {
-                this.mask = mask;
+                this.mask = mask; 
                 this.radius = radius;
                 launchTimes = 0;
             }
@@ -30,10 +30,5 @@ public class Sphere
             public int GetTimesThrown()
             {
                 return launchTimes;
-            }
-
-            public Color GetColor()
-            {
-                return mask;
             }
         }

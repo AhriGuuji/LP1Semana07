@@ -14,6 +14,7 @@ namespace ColorSpheres
             bola.Throw();
             bola.Throw();
 
+            Console.WriteLine(purple);
             Console.WriteLine(bola.GetTimesThrown());
         }
     }

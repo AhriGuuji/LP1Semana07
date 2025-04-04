@@ -1,9 +1,9 @@
 public class Color
         {
-            private readonly byte red;
-            private readonly byte green;
-            private readonly byte blue;
-            private readonly byte alpha;
+            private byte red;
+            private byte green;
+            private byte blue;
+            private byte alpha;
 
             public byte Red
             {
