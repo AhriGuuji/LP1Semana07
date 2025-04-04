@@ -5,8 +5,9 @@ public class Player
 {
     private int xp;
     private float health;
-    public string Name {get;}
+    public string Name {get;} //readonly auto-implanted
 
+    //get xp or add to xp
     public int XP
     {
         get
@@ -19,10 +20,13 @@ public class Player
         }
     }
 
+    //get Level
     public int Level
     {
         get { return 1+xp/1000; }
     }
+
+    //GetHealth or SetHealth between the break
 
     public float Health
     {
@@ -47,17 +51,20 @@ public class Player
         }
     }
 
+    //Get MaxHealth
     public float MaxHealth
     {
         get { return 100+(Level - 1)*20; }
     }
 
+    //Take damage and increment xp
     public void TakeDamage(float damage)
     {
         health -= damage;
         XP = (int)damage/20;
     }
 
+    //Constructor
     public Player(string Name)
     {
         this.Name = Name;
